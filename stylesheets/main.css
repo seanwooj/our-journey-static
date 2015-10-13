@@ -86,6 +86,32 @@
   font-size: 3vw;
 }
 
+.blog.collapsed {
+}
+
+.blog.collapsed .masthead {
+  background: white;
+}
+
+.blog.collapsed .masthead .masthead-header {
+  color: black;
+  font-size: 3vw;
+}
+
+.blog.collapsed .article-content {
+  display: none;
+}
+
 .content img {
   width: 100%;
+}
+
+
+
+.mood {
+  padding: 3em 4em;
+  background: url(../images/background_2.jpg);
+  background-size: cover;
+  background-position: center center;
+  display: block;
 }
